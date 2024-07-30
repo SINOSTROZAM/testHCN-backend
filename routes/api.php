@@ -1,3 +1,5 @@
+<?php
+
 use App\Http\Controllers\RegionController;
 use App\Http\Controllers\ProvinceController;
 use App\Http\Controllers\CityController;
