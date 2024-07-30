@@ -1,2 +1,80 @@
+<<<<<<< HEAD
+
 # testHCN-backend
-Test de evaluación 
+
+# Test de evaluación
+
+# Back-end
+
+Test de evaluación Este es el proyecto del Back-end construido con Laravel.
+
+## Instalación
+
+1. **Clona el repositorio:**
+
+    ```bash
+    git clone https://github.com/tuusuario/backend-repo.git
+    ```
+
+2. **Navega al directorio del proyecto:**
+
+    ```bash
+    cd backend-repo
+    ```
+
+3. **Instala las dependencias con Composer:**
+
+    ```bash
+    composer install
+    ```
+
+4. **Copia el archivo de ejemplo `.env` y configura tus variables de entorno:**
+
+    ```bash
+    cp .env.example .env
+    ```
+
+    Abre el archivo `.env` y ajusta las configuraciones de base de datos y otros parámetros según sea necesario.
+
+5. **Genera una clave de aplicación:**
+
+    ```bash
+    php artisan key:generate
+    ```
+
+6. **Realiza las migraciones de la base de datos:**
+
+    ```bash
+    php artisan migrate
+    ```
+
+7. **Llena la base de datos con datos de prueba (opcional):**
+
+    ```bash
+    php artisan db:seed
+    ```
+
+8. **Inicia el servidor de desarrollo:**
+
+    ```bash
+    php artisan serve
+    ```
+
+9. **Abre tu navegador y visita:**
+
+    ```
+    http://localhost:8000
+    ```
+
+## Configuración de Base de Datos
+
+Asegúrate de tener configurada tu base de datos en el archivo `.env`. Aquí tienes un ejemplo de configuración para PostgreSQL:
+
+DB_CONNECTION=pgsql
+DB_HOST=127.0.0.1
+DB_PORT=5432
+DB_DATABASE=nombre_de_base_de_datos
+DB_USERNAME=tu_usuario
+DB_PASSWORD=tu_contraseña
+
+> > > > > > > a4f8dd3 (Inicializando proyecto backend laravel)
