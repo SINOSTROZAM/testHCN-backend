@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-
 # testHCN-backend
 
 # Test de evaluación
@@ -13,19 +11,20 @@ Test de evaluación Este es el proyecto del Back-end construido con Laravel.
 1. **Clona el repositorio:**
 
     ```bash
-    git clone https://github.com/tuusuario/backend-repo.git
+    git clone https://github.com/SINOSTROZAM/testhcn-backend.git
     ```
 
 2. **Navega al directorio del proyecto:**
 
     ```bash
-    cd backend-repo
+    cd testhcn-backend
+
     ```
 
 3. **Instala las dependencias con Composer:**
 
     ```bash
-    composer install
+    composer install & composer update
     ```
 
 4. **Copia el archivo de ejemplo `.env` y configura tus variables de entorno:**
@@ -77,4 +76,6 @@ DB_DATABASE=nombre_de_base_de_datos
 DB_USERNAME=tu_usuario
 DB_PASSWORD=tu_contraseña
 
-> > > > > > > a4f8dd3 (Inicializando proyecto backend laravel)
+Para hacer PRUEBA de la API REST , esta se hizo  a traves de POSTMAN 2
+Ejemplo: 
+METODO GET =>  http://127.0.0.1:8000/api/regions  => SEND y trae las regiones disponibles en la BD
