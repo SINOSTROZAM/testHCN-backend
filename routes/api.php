@@ -1,5 +1,7 @@
 <?php
 
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\RegionController;
 use App\Http\Controllers\ProvinceController;
 use App\Http\Controllers\CityController;
@@ -29,3 +31,7 @@ Route::post('streets', [StreetController::class, 'store']);
 Route::put('streets/{id}', [StreetController::class, 'update']);
 Route::delete('streets/{id}', [StreetController::class, 'destroy']);
 
+
+Route::get('/user', function (Request $request) {
+    return $request->user();
+})->middleware('auth:sanctum');

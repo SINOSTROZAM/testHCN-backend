@@ -7,5 +7,5 @@ use Illuminate\Database\Eloquent\Model;
 
 class Region extends Model
 {
-    use HasFactory;
+    protected $fillable = ['name']; // Asegúrate de que los campos sean correctos
 }

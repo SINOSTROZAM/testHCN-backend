@@ -9,7 +9,8 @@ class RegionController extends Controller
 {
     public function index()
     {
-        return Region::all();
+        $regions = Region::all();
+        return response()->json($regions); 
     }
 
     public function store(Request $request)
