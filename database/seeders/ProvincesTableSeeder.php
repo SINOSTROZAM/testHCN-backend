@@ -13,11 +13,11 @@ class ProvincesTableSeeder extends Seeder
     public function run(): void
     {
         \DB::table('provinces')->insert([
-            ['name' => 'Province A', 'region_id' => 1],
-            ['name' => 'Province B', 'region_id' => 1],
-            ['name' => 'Province C', 'region_id' => 2],
-            ['name' => 'Province D', 'region_id' => 3],
-            ['name' => 'Province E', 'region_id' => 3],
+            ['name' => 'Iquique', 'region_id' => 1],
+            ['name' => 'Tamarugal', 'region_id' => 1],
+            ['name' => 'Antofagasta', 'region_id' => 2],
+            ['name' => 'Copiapo', 'region_id' => 3],
+            ['name' => 'Elqui', 'region_id' => 4],
         ]);
     }
 }

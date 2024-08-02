@@ -13,9 +13,12 @@ class RegionsTableSeeder extends Seeder
     public function run(): void
     {
         \DB::table('regions')->insert([
-            ['name' => 'Region 1'],
-            ['name' => 'Region 2'],
-            ['name' => 'Region 3'],
+            ['name' => 'Bio-Bio'],
+            ['name' => 'Arica y Parinacota'],
+            ['name' => 'Maule'],
+            ['name' => 'Valparaiso'],
+            ['name' => 'Los Lagos'],
+
         ]);
     }
 }

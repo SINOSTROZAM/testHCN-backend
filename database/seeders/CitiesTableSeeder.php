@@ -13,11 +13,11 @@ class CitiesTableSeeder extends Seeder
     public function run(): void
     {
         \DB::table('cities')->insert([
-            ['name' => 'City X', 'province_id' => 1],
-            ['name' => 'City Y', 'province_id' => 1],
-            ['name' => 'City Z', 'province_id' => 2],
-            ['name' => 'City W', 'province_id' => 3],
-            ['name' => 'City V', 'province_id' => 4],
+            ['name' => 'Arica', 'province_id' => 1],
+            ['name' => 'Camarones', 'province_id' => 1],
+            ['name' => 'General Lagos', 'province_id' => 2],
+            ['name' => 'Colchane', 'province_id' => 3],
+            ['name' => 'Pica', 'province_id' => 4],
         ]);
     }
 }

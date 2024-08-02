@@ -17,9 +17,14 @@ class StreetController extends Controller
         $transformedStreets = $streets->map(function ($street) {
             return [
                 'name' => $street->name,
+                'street_id' => $street->id,
                 'region' => $street->city->province->region->name,
+                'region_id' => $street->region_id,
                 'province' => $street->city->province->name,
+                'province_id' => $street->province_id,
                 'city' => $street->city->name,
+                'city_id' => $street->city_id,
+                
             ];
         });
 
@@ -37,6 +42,8 @@ class StreetController extends Controller
         $request->validate([
             'name' => 'required|string|max:255',
             'city_id' => 'required|exists:cities,id',
+            'province_id' => 'required|exists:provinces,id',
+            'region_id' => 'required|exists:regions,id',
         ]);
 
         $street = Street::create($request->all());
