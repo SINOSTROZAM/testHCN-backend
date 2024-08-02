@@ -27,39 +27,35 @@ Test de evaluación Este es el proyecto del Back-end construido con Laravel.
     composer install & composer update
     ```
 
-4. **Copia el archivo de ejemplo `.env` y configura tus variables de entorno:**
-
-    ```bash
-    cp .env.example .env
-    ```
-
+4. **Copia el archivo de ejemplo `.env` y configura tus variables de entorno (se encuentra mas abajo un ejemplo  de como deberia ser ):**
+   
     Abre el archivo `.env` y ajusta las configuraciones de base de datos y otros parámetros según sea necesario.
 
-5. **Genera una clave de aplicación:**
+6. **Genera una clave de aplicación:**
 
     ```bash
     php artisan key:generate
     ```
 
-6. **Realiza las migraciones de la base de datos:**
+7. **Realiza las migraciones de la base de datos:**
 
     ```bash
     php artisan migrate
     ```
 
-7. **Llena la base de datos con datos de prueba (opcional):**
+8. **Llena la base de datos con datos de prueba (opcional):**
 
     ```bash
     php artisan db:seed
     ```
 
-8. **Inicia el servidor de desarrollo:**
+9. **Inicia el servidor de desarrollo:**
 
     ```bash
     php artisan serve
     ```
 
-9. **Abre tu navegador y visita:**
+10. **Abre tu navegador y visita:**
 
     ```
     http://localhost:8000
