@@ -24,7 +24,7 @@ Test de evaluación Este es el proyecto del Back-end construido con Laravel.
 3. **Instala las dependencias con Composer:**
 
     ```bash
-    composer install & composer update
+    composer install && composer update
     ```
 
 4. **Copia el archivo de ejemplo `.env` y configura tus variables de entorno (se encuentra mas abajo un ejemplo  de como deberia ser ):**
