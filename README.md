@@ -68,14 +68,14 @@ Test de evaluación Este es el proyecto del Back-end construido con Laravel.
 ## Configuración de Base de Datos
 
 Asegúrate de tener configurada tu base de datos en el archivo `.env`. Aquí tienes un ejemplo de configuración para PostgreSQL:
-
+```bash
 DB_CONNECTION=pgsql
 DB_HOST=127.0.0.1
 DB_PORT=5432
 DB_DATABASE=nombre_de_base_de_datos
 DB_USERNAME=tu_usuario
 DB_PASSWORD=tu_contraseña
-
+```
 Para hacer PRUEBA de la API REST , esta se hizo  a traves de POSTMAN 2
 Ejemplo: 
 METODO GET =>  http://127.0.0.1:8000/api/regions  => SEND y trae las regiones disponibles en la BD
