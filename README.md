@@ -21,7 +21,7 @@ Test de evaluación Este es el proyecto del Back-end construido con Laravel.
 
     ```
 
-3. **Instala las dependencias con Composer:**
+3. **Instala las dependencias con Composer (tener previamente instalado PHP 8.2, se uso en este desarrollo y laravel 11.9):**
 
     ```bash
     composer install && composer update
@@ -75,3 +75,9 @@ DB_PASSWORD=tu_contraseña
 Para hacer PRUEBA de la API REST , esta se hizo  a traves de POSTMAN 2
 Ejemplo: 
 METODO GET =>  http://127.0.0.1:8000/api/regions  => SEND y trae las regiones disponibles en la BD
+
+### **Notas Adicionales**
+
+- **Postman:** Asegúrate de que la API esté en ejecución antes de realizar las pruebas con Postman.
+- **Configuración del Front-end:** El archivo `.env` en el front-end debe coincidir con la URL de tu API para que las peticiones funcionen correctamente.
+- **CORS:** Si encuentras problemas de CORS al hacer peticiones desde el front-end al back-end, asegúrate de configurar los encabezados CORS en tu aplicación Laravel.
