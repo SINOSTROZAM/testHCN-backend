@@ -7,5 +7,10 @@ use Illuminate\Database\Eloquent\Model;
 
 class Region extends Model
 {
-    protected $fillable = ['name']; // Asegúrate de que los campos sean correctos
+    protected $fillable = ['name'];
+    //relacion con provincias
+    public function provinces()
+    {
+        return $this->hasMany(Province::class);
+    }
 }

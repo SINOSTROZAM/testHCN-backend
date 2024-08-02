@@ -26,6 +26,7 @@ Route::put('cities/{id}', [CityController::class, 'update']);
 Route::delete('cities/{id}', [CityController::class, 'destroy']);
 
 // Rutas para Calles
+Route::get('streets', [StreetController::class, 'indexAll']);
 Route::get('streets/{cityId}', [StreetController::class, 'index']);
 Route::post('streets', [StreetController::class, 'store']);
 Route::put('streets/{id}', [StreetController::class, 'update']);
